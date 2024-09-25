@@ -1,2 +1,6 @@
 # detect-describe-discriminate
-Evaluation Code for ECCVW 2024 paper "Detect, Describe, Discriminate: Moving Beyond VQA for MLLM Evaluation"
+Welcome to Detect-Describe-Discriminate, this repository contains data and code for self-retrieval evaluation.
+
+### Coming soon:
+- D3 benchmark data
+- Script for Self Retrieval Evaluation
