@@ -3,4 +3,4 @@ Welcome to Detect-Describe-Discriminate, this repository contains data and code 
 
 ### Coming soon:
 - D3 benchmark data
-- \sout{Script for Self Retrieval Evaluation}
+- ~~Script for Self Retrieval Evaluation}~~
