@@ -4,8 +4,9 @@
 
 [Manu Gaur](https://manugaurdl.github.io/), [Darshan Singh S](https://darshansingh11.github.io/), [Makarand Tapaswi](https://makarandtapaswi.github.io/)
 
-![Teaser](imgs/teaser.png)
-
+<p align="center">
+  <img src="imgs/teaser.png" width="500" />
+</p>
 
 <p float="left">
   <a href="https://arxiv.org/abs/2409.15125">
