@@ -1,7 +1,11 @@
 
 
 # Detect, Describe, Discriminate: Moving Beyond VQA for MLLM Evaluation
-<img src="assets/run.ico" width=70 height=70/> 
+
+[Manu Gaur](https://manugaurdl.github.io/), [Darshan Singh S](https://darshansingh11.github.io/), [Makarand Tapaswi](https://makarandtapaswi.github.io/)
+
+![Teaser](imgs/teaser.png)
+
 
 <p float="left">
   <a href="https://arxiv.org/abs/2409.15125">
@@ -19,7 +23,7 @@
 
 ### Setting-up Data 💿
 
-- The data is available [Here](https://drive.google.com/file/d/1yvA27H6UwG9eqA8tXmFibKJSfwbZMOZ_/view?usp=sharing) as a `.zip` file.
+- The data is available [Here](https://drive.google.com/file/d/1X-8ARlBbj-U_uMEQ-PfPN1tOQqU1hKox/view?usp=sharing) as a `.zip` file.
 - Either manually visit the link and donwload the `images.zip` in the root of this directory, or
 - Download the `images.zip` via `gdown`
 
@@ -121,3 +125,4 @@ This work is licensed under a
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+

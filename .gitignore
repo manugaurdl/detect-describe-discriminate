@@ -1,4 +1,5 @@
 *.ipynb
+dataset.json
 uid2acc/
 captions/
 images/
