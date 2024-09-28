@@ -25,8 +25,8 @@
 ### Setting-up Data 💿
 
 - The data is available [Here](https://drive.google.com/file/d/1X-8ARlBbj-U_uMEQ-PfPN1tOQqU1hKox/view?usp=sharing) as a `.zip` file.
-- Either manually visit the link and donwload the `images.zip` in the root of this directory, or
-- Download the `images.zip` via `gdown`
+- Either manually visit the link and donwload the `dataset.zip` in the root of this directory, or
+- Download the `dataset.zip` via `gdown`
 
 ```
 pip install gdown
@@ -38,8 +38,8 @@ Then in a python terminal or a file,
 import gdown
 gdown 1yvA27H6UwG9eqA8tXmFibKJSfwbZMOZ_
 ```
+Unzip the contents of `dataset.zip`, and ensure the following directory structure
 
-Unzip dataset.zip to get a directory with 494 images. The dataset format is: 
 ```
 ├── images
 │   ├── image1.jpg
