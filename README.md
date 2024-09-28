@@ -84,8 +84,8 @@ Identify finegrained visual differences between both images and use them to gene
 ```json
 {
   "0": {
-    "left": "The dog is facing left.",
-    "right": "The dog is facing right."
+    "left": "There is a dog sitting on the bench facing left.",
+    "right": "There is a dog sitting on the bench facing slightly right."
   }
 }
 ```
