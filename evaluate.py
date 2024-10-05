@@ -15,7 +15,7 @@ os.makedirs('./uid2acc', exist_ok=True)
 
 def main(caps_filename):
 
-    dataset = json.load(open('/home/manugaur/detect-describe-discriminate/dataset.json', 'r'))
+    dataset = json.load(open('/home/manugaur/detect-describe-discriminate/dataset/dataset.json', 'r'))
     
     loss = DiscriminativeLoss() # SR objective
     scorer = Scorer() #SigLIP 
