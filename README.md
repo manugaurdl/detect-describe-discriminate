@@ -34,20 +34,16 @@ pip install -r requirements.txt
 
 ## Setting-up Data 💿
 
-- The data is available [Here](https://drive.google.com/file/d/1X-8ARlBbj-U_uMEQ-PfPN1tOQqU1hKox/view?usp=sharing) as a `.zip` file.
+- The data is available [Here](https://drive.google.com/file/d/1V7TDA16cZML1JhABcJocBLRtAyOYfqWc/view?usp=sharing) as a `.zip` file.
 - Either manually visit the link and donwload the `dataset.zip` in the root of this directory, or
 - Download the `dataset.zip` via `gdown`
 
 ```
 pip install gdown
 cd detect-describe-discriminate
+gdown 1V7TDA16cZML1JhABcJocBLRtAyOYfqWc
 ```
-Then in a python terminal or a file,
 
-```
-import gdown
-gdown 1yvA27H6UwG9eqA8tXmFibKJSfwbZMOZ_
-```
 Unzip the contents of `dataset.zip`, and ensure the following directory structure
 
 ```
@@ -90,7 +86,7 @@ All the image pairs can be visualized using [visualize_benchmark.ipynb](visualiz
 Identify finegrained visual differences between both images and use them to generate a discriminant caption for each image. Each caption should uniquely describe the image and highlight the distinct features that set the image apart from the other. Output JSON format with 'left_image' and 'right_image' as keys, and their captions as string values.
 ```
 
-- Structure the output predictions in the same format `dataset.json` and store it as  `./captions/mllm_preds.json`. An example of an instance in `./captions/mllm_preds.json`:
+- Structure the output predictions in the same format `dataset.json` and store it as a json in `./captions`. An example of an instance in stored json file:
 ```json
 {
   "0": {
@@ -104,11 +100,11 @@ Identify finegrained visual differences between both images and use them to gene
 ## Self-Retrieval Evaluation
 
 
-To evaluate on the D<sub>3</sub> benchmark, run 
+To evaluate the descriptions (stored as `./captions/gpt4o.json`) on the D<sub>3</sub> benchmark, run 
 ```
-python evaluate.py FILENAME_OF_MLLM_PREDS_DICT
+python evaluate.py gpt4o
 ```
-The script conducts self-retreival evaluation using captions stored in `./captions/mllm_preds.json` and stores an pickled dictionary containing recall scores for each image pair in `./uid2acc/`. The script currently uses `google/siglip-so400m-patch14-384` as a scorer.
+The script conducts self-retreival evaluation using captions stored in `./captions/gpt4o.json` and stores an pickled dictionary containing recall scores for each image pair in `./uid2acc/`. The script currently uses `google/siglip-so400m-patch14-384` as a scorer.
 
 
 ## BibTeX
