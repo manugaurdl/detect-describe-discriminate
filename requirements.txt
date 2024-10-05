@@ -1,0 +1,5 @@
+gdown==5.2.0
+protobuf==5.28.2
+sentencepiece==0.2.0
+tqdm==4.66.5
+transformers==4.45.1
