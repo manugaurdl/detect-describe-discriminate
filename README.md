@@ -22,7 +22,17 @@
 
 ### :zap:	For instant visualization of data samples, please visit our [Project Page](https://katha-ai.github.io/projects/detect-describe-discriminate/)
 
-### Setting-up Data 💿
+## Getting Started
+
+### Installation
+```
+conda create -n d3 python=3.10 -y
+conda activate d3
+pip install -r requirements.txt
+```
+
+
+## Setting-up Data 💿
 
 - The data is available [Here](https://drive.google.com/file/d/1X-8ARlBbj-U_uMEQ-PfPN1tOQqU1hKox/view?usp=sharing) as a `.zip` file.
 - Either manually visit the link and donwload the `dataset.zip` in the root of this directory, or
